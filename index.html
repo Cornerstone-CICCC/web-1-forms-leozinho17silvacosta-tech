@@ -8,7 +8,87 @@
 </head>
 <body>
     <form enctype="multipart/form-data" action="index.html" method="get">
-        <!-- FORM FIELDS HERE -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" pattern="[a-zA-Z0-9]">
+
+            <label for="dateofbirth">Date of Birth:</label>
+            <input type="date" id="dateofbirth" name="dateofbirth" min="1900-01-01" max="2025-12-31">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>Favorite Color:</label>
+            <input type="color" name="color" value="000000">
+
+            <label>Hobby:</label>
+            <input type="text" id="text" name="text">
+
+            <label>Experience Level:</label>
+            <input type="range" name="quantity" min="1" max="10" step="1">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Preferences</legend>
+            <label>Preferred Contact Method:</label>
+            <select name="PreferredContact">
+                <option value="email">Email</option>
+                <option value="email">WhatsApp</option>
+                <option value="email">Instagram</option>
+                <option value="email">LinkedIn</option>
+            </select>
+
+            <label>Subscribe to Newsletter:</label>
+            <input type="checkbox">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>Gender:</label>
+            <input type="radio" name="Gender" value="male" id="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="Gender" value="female" id="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="Gender" value="other" id="other">
+            <label for="other">Other</label><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>More Information</legend>
+            <label>Bio:</label>
+            <textarea name="message" cols="75" rows="5"></textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Upload Documents</legend>
+            <label>Resume and other certificates:</label>
+            <input type="file" name="file" multiple>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Submission</legend>
+            <button type="reset">Reset</button> 
+            <button type="submit">Submit</button>
+        </fieldset>
     </form>
 </body>
 </html>

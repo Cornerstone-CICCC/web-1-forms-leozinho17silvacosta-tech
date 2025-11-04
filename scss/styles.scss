@@ -12,3 +12,91 @@ form {
   max-width: 600px;
   margin: 20px auto;
 }
+
+legend {
+  font-size: 1rem;
+  background-color: white; 
+  border: 1px solid gray;
+  border-radius: 4px 4px 4px 4px; 
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input[type="email"] {
+  width: 100%;
+  border: 1px solid gray;  
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input[type="password"] {
+  width: 100%;
+  border: 1px solid gray;  
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input[type="color"] {
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 25%;
+  border-radius: 0%;
+  height: 20px;
+}
+
+
+input[type="color"] {
+  width: 100%;
+}
+
+select[name="PreferredContact"] {
+  width: 100%;
+  border: 1px solid gray;  
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input[type="radio"] + label {
+  display: inline;
+  margin-right: 15px;
+  border-radius: 0%;
+}
+
+button[type="reset"] {
+  background-color: rgb(2, 148, 220);
+  color: white;
+  width: 12%;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: rgb(2, 148, 220);
+  color: white;
+  width: 12%;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
